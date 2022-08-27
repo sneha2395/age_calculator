@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(0, 115, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ main{
+    height: 150px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+ }
+ .box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .inner-box{
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 0 3px 0.6px rgb(39, 12, 12);
+ }
+ .date {
+    border: none;
+    font-size: 0.5rem;
+    width: 185px;
+    height: 25px;
+    border-radius: 3px;
+    padding: 5px;
+}
+ .calculate{
+    font-size: 1rem;
+    width: 98px;
+    height: 27px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+ .inner-boxs{
+    background-color: black;
+    width: 6rem;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 1px 0.1px rgb(39, 12, 12);
+ }
+ .number{
+    color: white;
+    font-size: 1.6rem;
+ }
+ .label{
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    color: rgba(239, 238, 0.941);
+ }
